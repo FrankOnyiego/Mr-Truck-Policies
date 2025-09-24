@@ -1,120 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr Truck - Privacy Policy</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mr Truck — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Mr Truck (BSC Limited). Explains what personal data we collect, how we use it, and your rights under Kenya's Data Protection Act (2019)." />
   <style>
+    :root{
+      --bg:#f9f9f9;
+      --card:#ffffff;
+      --accent:#0066cc;
+      --text:#222;
+      --muted:#666;
+      --radius:8px;
+      --pad:20px;
+    }
+    html,body{height:100%;}
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background: #f9f9f9;
-      color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 24px;
+      background: var(--bg);
+      color: var(--text);
+      line-height:1.6;
     }
-    h1, h2 {
-      color: #222;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header h1 { margin:0 0 8px 0; font-size:28px; }
     .policy-section {
-      background: #fff;
-      padding: 20px;
-      margin-bottom: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background: var(--card);
+      padding: var(--pad);
+      margin-bottom: 28px;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
+    h2 { margin-top:0; color: var(--text); }
+    ul { margin-top:0; }
+    .muted { color: var(--muted); font-size:0.95em; }
+    .actions { margin-top:12px; }
+    footer { font-size:0.9em; color:var(--muted); }
+    .kbd { background:#f1f1f1; padding:3px 6px; border-radius:4px; font-family:monospace; }
   </style>
 </head>
 <body>
+  <header role="banner" class="policy-section" aria-labelledby="policy-title">
+    <h1 id="policy-title">Privacy Policy — Mr Truck</h1>
+    <p class="muted"><strong>Effective date:</strong> December 2025</p>
+    <p class="muted">Last updated: December 2025</p>
+  </header>
 
-  <div class="policy-section">
-    <h1>Privacy Policy — Mr Truck</h1>
-    <p><strong>Effective Date:</strong> December 2025</p>
+  <main role="main" aria-labelledby="introduction" class="policy-section">
+    <h2 id="introduction">1. Introduction</h2>
+    <p>
+      This Privacy Policy explains how <strong>BSC Limited</strong> (“we”, “us”, “our”) collects, uses, stores, shares and protects personal data when you use the <strong>Mr Truck</strong> mobile application and related services (the “Service”). We are committed to protecting your privacy and processing your personal data in accordance with the Kenya <strong>Data Protection Act, 2019</strong>.
+    </p>
+  </main>
 
-    <h2>1. Introduction</h2>
-    <p>This Privacy Policy explains how <strong>BSC Limited</strong> (“Company”, “we”, “us”) collects, uses, shares, and protects your personal data when you use the <strong>Mr Truck</strong> mobile application and related services (the “Service”).</p>
-    <p>We comply with Kenya’s <strong>Data Protection Act (2019)</strong> and related regulations.</p>
+  <section class="policy-section" aria-labelledby="controller">
+    <h2 id="controller">2. Data Controller & Contact</h2>
+    <p>
+      <strong>Data Controller:</strong> BSC Limited<br />
+      <strong>Address:</strong> BSC Limited, Sameer Park, Mombasa Road, Nairobi, Kenya<br />
+      <strong>Data Protection Officer (DPO) / Privacy contact:</strong>
+      <a href="mailto:bsclimited.mrtruck@gmail.com">bsclimited.mrtruck@gmail.com</a>
+    </p>
+  </section>
 
-    <h2>2. Data Controller & Contact</h2>
-    <p>BSC Limited is the Data Controller for personal data processed through Mr Truck.<br>
-    Email: <a href="mailto:bsclimited.mrtruck@gmail.com">bsclimited.mrtruck@gmail.com</a><br>
-    Address: BSC Limited, Sameer Park, Mombasa Road, Nairobi, Kenya</p>
-
-    <h2>3. Data We Collect</h2>
-    <p>We collect the following categories of personal data when you use the Service:</p>
+  <section class="policy-section" aria-labelledby="what-we-collect">
+    <h2 id="what-we-collect">3. Data we collect</h2>
+    <p>We collect personal data necessary to provide and improve the Service. Categories include:</p>
     <ul>
-      <li><strong>Identity Information:</strong> name, national ID/passport, date of birth.</li>
-      <li><strong>Contact Information:</strong> phone number, email, address.</li>
-      <li><strong>Location Data:</strong> GPS pickup and drop-off locations for service delivery.</li>
-      <li><strong>Payment Data:</strong> card/payment details (processed via third-party providers), transaction history.</li>
-      <li><strong>Device & Usage Data:</strong> device identifiers, IP address, app usage logs, crash reports.</li>
-      <li><strong>Communications:</strong> messages or calls between Customers and Drivers (where retained for support and service quality).</li>
-      <li><strong>Optional Data:</strong> photos or documents uploaded for proof of delivery or ID verification.</li>
+      <li><strong>Identity:</strong> name, national ID / passport number, date of birth (where required for verification).</li>
+      <li><strong>Contact:</strong> phone number, email address, postal address.</li>
+      <li><strong>Location:</strong> GPS pickup/drop-off locations, route information, and live tracking while a booking is active.</li>
+      <li><strong>Payment & transaction:</strong> payment instrument metadata, transaction history (actual card data is processed directly by payment providers and not stored by us unless explicitly authorised).</li>
+      <li><strong>Device & usage:</strong> device identifiers, IP address, app logs, crash reports, cookies and analytics data.</li>
+      <li><strong>Communications:</strong> in-app messages, call metadata and customer support records (contents may be retained to resolve disputes).</li>
+      <li><strong>Proof & optional:</strong> photos, delivery signatures or documents uploaded by you for verification or proof of delivery.</li>
     </ul>
+  </section>
 
-    <h2>4. Legal Basis for Processing</h2>
-    <p>We process personal data based on:</p>
+  <section class="policy-section" aria-labelledby="legal-basis">
+    <h2 id="legal-basis">4. Legal basis for processing</h2>
+    <p>We rely on one or more of the following legal bases under the Data Protection Act when processing your personal data:</p>
     <ul>
-      <li><strong>Performance of a contract</strong> – to provide transport and delivery services.</li>
-      <li><strong>Consent</strong> – where required (e.g., marketing communications).</li>
-      <li><strong>Legal obligations</strong> – to comply with Kenyan laws.</li>
-      <li><strong>Legitimate interests</strong> – fraud prevention, service improvement, dispute resolution.</li>
+      <li><strong>Performance of a contract:</strong> to provide the Service and fulfil bookings.</li>
+      <li><strong>Legal obligations:</strong> to comply with statutory or regulatory requirements (e.g., tax, accounting, law enforcement requests).</li>
+      <li><strong>Legitimate interests:</strong> fraud prevention, service improvement, analytics and ensuring platform security (we balance these interests against your rights).</li>
+      <li><strong>Consent:</strong> where required (for example, marketing communications). You can withdraw consent at any time where applicable.</li>
     </ul>
+  </section>
 
-    <h2>5. How We Use Your Data</h2>
+  <section class="policy-section" aria-labelledby="how-we-use">
+    <h2 id="how-we-use">5. How we use your data</h2>
     <ul>
-      <li>To provide and improve the Service.</li>
-      <li>To process payments and manage bookings.</li>
-      <li>To enable live tracking and route optimisation.</li>
-      <li>To verify identity and prevent fraud.</li>
-      <li>To comply with legal and regulatory requirements.</li>
-      <li>To conduct analytics and improve customer experience.</li>
+      <li>To provide, operate and improve the Service (matching Customers and Drivers, routing, tracking, billing).</li>
+      <li>To process payments, issue receipts and manage refunds or disputes.</li>
+      <li>To verify identity and perform eligibility checks for Drivers and Customers.</li>
+      <li>To detect and prevent fraud or misuse of the Service.</li>
+      <li>To respond to user requests and provide customer support.</li>
+      <li>To comply with legal obligations and to respond to lawful requests from public authorities.</li>
+      <li>For analytics and product development (aggregated / pseudonymised where possible).</li>
+      <li>For marketing and communications where you have given consent (you may opt out at any time).</li>
     </ul>
+  </section>
 
-    <h2>6. Sharing & Disclosure</h2>
-    <p>We may share your data with:</p>
+  <section class="policy-section" aria-labelledby="sharing">
+    <h2 id="sharing">6. Sharing & disclosure</h2>
+    <p>We may share personal data with the following categories of recipients:</p>
     <ul>
-      <li><strong>Drivers</strong> – to fulfil your booking.</li>
-      <li><strong>Payment processors</strong> – to complete transactions.</li>
-      <li><strong>Service providers</strong> – such as hosting, analytics, and customer support providers.</li>
-      <li><strong>Law enforcement or regulators</strong> – if required by law.</li>
+      <li><strong>Drivers:</strong> to fulfil bookings (e.g., contact and pickup/drop-off location).</li>
+      <li><strong>Payment processors and banks:</strong> to complete payments and refunds.</li>
+      <li><strong>Service providers and subprocessors:</strong> hosting, analytics, communications, identity verification, customer support and fraud prevention providers. These providers are contractually obligated to protect your data.</li>
+      <li><strong>Law enforcement, courts or regulators:</strong> where required by law or to protect legal rights.</li>
+      <li><strong>Affiliates or business partners:</strong> in accordance with this Policy and only where necessary to provide the Service.</li>
     </ul>
-    <p>We do <strong>not</strong> sell your personal data to third parties.</p>
+    <p><strong>We do not sell personal data.</strong></p>
+  </section>
 
-    <h2>7. Cross-Border Transfers</h2>
-    <p>Where personal data is transferred outside Kenya, we ensure compliance with the <strong>Data Protection Act (2019)</strong> and related regulations on data localisation and cross-border transfers.</p>
+  <section class="policy-section" aria-labelledby="cross-border">
+    <h2 id="cross-border">7. Cross-border transfers</h2>
+    <p>
+      Personal data may be processed or stored outside Kenya (for example by cloud hosting providers). When we transfer data internationally, we require adequate protections (contracts, standard contractual clauses, or other lawful safeguards) and shall comply with the Data Protection Act and applicable regulations.
+    </p>
+  </section>
 
-    <h2>8. Data Security & Retention</h2>
-    <p>We use encryption, access controls, and other technical safeguards to protect your data. We retain your data only as long as necessary to deliver the Service, comply with laws, or for legitimate business purposes.</p>
-
-    <h2>9. Your Rights</h2>
-    <p>Under Kenyan law, you have the following rights:</p>
+  <section class="policy-section" aria-labelledby="security">
+    <h2 id="security">8. Data security & retention</h2>
+    <p>We use administrative, technical and physical safeguards to protect personal data, including encryption in transit and at rest, access controls, network security measures and monitoring. Despite these measures, no system is 100% secure — we will notify affected users and the Office of the Data Protection Commissioner (ODPC) where required by law in the event of a personal data breach.</p>
+    <p><strong>Retention:</strong> We retain personal data only as long as necessary for the purposes described and to meet legal, contractual, and accountancy obligations. Example retention periods (subject to legal change):</p>
     <ul>
-      <li>Access to your personal data.</li>
-      <li>Correction of inaccurate data.</li>
-      <li>Deletion of data (subject to legal limitations).</li>
-      <li>Restriction or objection to processing.</li>
-      <li>Data portability (where applicable).</li>
-    </ul>
-    <p>You may also file a complaint with the <strong>Office of the Data Protection Commissioner (ODPC)</strong>.</p>
-
-    <h2>10. Children’s Data</h2>
-    <p>Mr Truck is not intended for individuals under the age of 18. We do not knowingly collect data from minors.</p>
-
-    <h2>11. Changes to this Policy</h2>
-    <p>We may update this Privacy Policy. Any material changes will be communicated via the app or email. Continued use of the Service after notice constitutes acceptance.</p>
-
-    <h2>12. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at:<br>
-    Email: <a href="mailto:bsclimited.mrtruck@gmail.com">bsclimited.mrtruck@gmail.com</a><br>
-    Address: BSC Limited, Sameer Park, Mombasa Road, Nairobi, Kenya</p>
-  </div>
-
-</body>
-</html>
+      <li>Account registration and profile data: while the account is active and for a reasonable period after (typically up to 2 years unless required by law).</li>
+      <li>Transaction and payment records: may be retained up to 7 years to comply with tax and regulatory obligations.</li>
+      <li>Support and dispute records: retained for the period necessa
